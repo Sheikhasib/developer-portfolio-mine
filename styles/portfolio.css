@@ -23,7 +23,7 @@
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right, left; /* using (,) for second bg img */  
+    background-position: bottom right, left; /* using (,) for second bg img */
 }
 
 /* header and navigation styles */
@@ -40,7 +40,7 @@ nav {
 
 nav ul {
     display: flex; /* to set the child elements beside each other */
-    align-items: center; /* for vertical alignment */   
+    align-items: center; /* for vertical alignment */
 }
 
 nav li {
@@ -89,10 +89,11 @@ main {
     padding: 130px 150px;
 }
 
-.section-title {  
+.section-title {
+    text-align: center;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;  
+    margin-bottom: 30px;
 }
 
 .section-description {
@@ -101,18 +102,69 @@ main {
     margin-bottom: 30px;
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around; /* items are evenly distributed in the line with equal space around them */
 }
 
-.about .info-title{
+.about .info-title {
     color: #757575;
     font-size: 20px;
 }
 
-.info-description{
+.info-description {
     color: #474747;
     font-weight: 700;
     font-size: 20px;
+}
+
+/* what I do styles */
+.what-i-do-section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 130px;
+}
+
+.what-i-do-section-description {
+    color: #757575;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+
+.skill-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+}
+
+/* Resume styles */
+.resume-section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 130px;
+    margin-bottom: 113px;
 }
